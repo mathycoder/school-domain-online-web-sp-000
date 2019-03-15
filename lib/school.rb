@@ -23,7 +23,6 @@ class School
       student_array.alphabetize 
     end 
   end 
-  
 end 
 
 
