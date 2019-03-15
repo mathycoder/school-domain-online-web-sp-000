@@ -30,5 +30,6 @@ school = School.new("Bayside High School")
 school.add_student("Adam", 9)
 school.add_student("Tracy", 9)
 school.add_student("Danielle", 9)
+puts school.grade(9)
 school.sort
 puts school.grade(9)
