@@ -19,10 +19,9 @@ class School
   end 
 
   def sort 
-   # @roster.map do |grade, student_array|
-   #   student_array.sort
-   # end 
-   @roster = @roster.sort 
+    @roster.map do |grade, student_array|
+      student_array.sort
+    end 
   end 
 end 
 
