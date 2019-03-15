@@ -20,7 +20,7 @@ class School
   end 
 
   def sort 
-    @roster.map do |grade, student_array|
+    @roster.collect do |grade, student_array|
      # binding.pry
       student_array = student_array.sort
     end 
