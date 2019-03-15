@@ -1,4 +1,5 @@
 # code here!
+include.pry 
 class School
   attr_accessor :name, :roster 
   
