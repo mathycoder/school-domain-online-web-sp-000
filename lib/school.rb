@@ -8,7 +8,8 @@ class School
   end 
   
   def add_student(student, grade)
-    @roster[grade] << student
+    if @roster[grade].length > 0 
+    @roster[grade] << student 
   end  
   
 end 
