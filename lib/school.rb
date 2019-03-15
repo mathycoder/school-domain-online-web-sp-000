@@ -21,7 +21,7 @@ class School
 
   def sort 
     @roster.collect do |grade, student_array|
-     grade = student_array.sort
+     @roster[grade] = student_array.sort
     end 
   end 
 end 
